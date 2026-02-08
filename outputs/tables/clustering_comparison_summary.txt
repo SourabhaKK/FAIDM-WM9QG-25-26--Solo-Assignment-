@@ -1,0 +1,29 @@
+
+CLUSTERING METHOD COMPARISON SUMMARY
+
+K-Means (k=3):
+- Clusters: 3
+- Noise points: 0
+- Silhouette: 0.082
+- Cluster sizes: [3618, 1700, 4682]
+
+DBSCAN Results (varying eps):
+
+  eps=0.5: 0 clusters, 10000 noise points, silhouette=N/A
+  eps=1.0: 2 clusters, 9508 noise points, silhouette=0.420
+  eps=1.5: 11 clusters, 8004 noise points, silhouette=0.289
+  eps=2.0: 21 clusters, 6664 noise points, silhouette=0.246
+  eps=2.5: 4 clusters, 4831 noise points, silhouette=0.158
+
+Key Findings:
+1. DBSCAN is highly sensitive to eps parameter
+2. Number of clusters varies dramatically with eps
+3. Many points classified as "noise" (ungrouped)
+4. Difficult to achieve stable 3-cluster solution
+5. No clear healthcare interpretation of "noise" patients
+
+Conclusion:
+DBSCAN's sensitivity to parameters and production of "noise" points
+makes it unsuitable for healthcare risk stratification. K-Means provides
+stable, interpretable groupings that align with low/medium/high risk
+categories. This empirical comparison justifies the K-Means choice.

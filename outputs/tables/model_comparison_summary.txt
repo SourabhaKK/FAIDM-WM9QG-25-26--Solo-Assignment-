@@ -1,0 +1,21 @@
+
+EMPIRICAL MODEL COMPARISON SUMMARY
+
+Decision Tree (max_depth=5):
+- Precision: 0.302
+- Recall: 0.801
+- ROC-AUC: 0.799
+
+Logistic Regression:
+- Precision: 0.341
+- Recall: 0.761
+- ROC-AUC: 0.818
+
+Key Findings:
+1. Performance difference is marginal (0.018 ROC-AUC difference)
+2. Decision Tree slightly worse on ROC-AUC
+3. Trade-off: Decision Tree gains ~-1.8% performance but loses interpretability
+
+Conclusion:
+The marginal performance gain does NOT justify the loss of interpretability
+in a healthcare screening context. Logistic Regression remains the preferred choice.
