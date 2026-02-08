@@ -521,7 +521,6 @@ MSc Applied Artificial Intelligence
 
 **Academic Year**: 2025-26  
 **Module**: WM9QG-15 - Fundamentals of AI and Data Mining  
-**Grade**: 80/100 (Distinction)
 
 ---
 
@@ -543,18 +542,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Contact
-
-For questions about this project or academic collaboration:
-- **Institution**: University of Warwick
-- **Department**: Warwick Manufacturing Group (WMG)
-- **Module**: WM9QG-15
-
----
-
 <div align="center">
-
-**⭐ If you found this project helpful, please consider giving it a star! ⭐**
 
 *Demonstrating responsible, interpretable, and fair machine learning for healthcare applications*
 
