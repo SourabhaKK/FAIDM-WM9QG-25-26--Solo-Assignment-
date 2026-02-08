@@ -4,7 +4,6 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Grade: Distinction](https://img.shields.io/badge/Grade-80%2F100%20(Distinction)-success)](https://github.com)
 
 **University of Warwick | WMG | WM9QG-15**  
 **Fundamentals of Artificial Intelligence and Data Mining**  
